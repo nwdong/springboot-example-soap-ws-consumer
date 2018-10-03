@@ -1,7 +1,8 @@
 # it's based on https://github.com/spring-guides/gs-consuming-web-service/tree/master/complete
 
 # how to build
-firstly, start springboot-example-soap-ws-producer (or change POM to use wsdl file)
+firstly, start springboot-example-soap-ws-producer 
+Or change POM to use wsdl file. WSDL file needs to be saved locally, as well as XSD files if refered by the WSDL file.
 
 mvn clean install
 
