@@ -12,8 +12,7 @@ java -jar target/gs-consuming-web-service-0.1.0.jar
 or run with parameter
 java -jar target/gs-consuming-web-service-0.1.0.jar Poland
 
-Then, in log, there is output as below
-currency of Poland is PLN
+Then, in log, there is output as "currency of Poland is PLN"
 
 # SoapActionCallback
 It will be called after the request is marshalled, and before it is sent.
